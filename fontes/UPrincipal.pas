@@ -48,6 +48,7 @@ type
     procedure Sair1Click(Sender: TObject);
     procedure Sair2Click(Sender: TObject);
     procedure Barrios1Click(Sender: TObject);
+    procedure bitBtnClientesClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -59,7 +60,7 @@ var
 
 implementation
 
-uses USobre, UCidade, UBAIRRO;
+uses USobre, UCidade, UBAIRRO, UCliente;
 
 {$R *.dfm}
 
@@ -98,6 +99,14 @@ procedure TfrmPrincipal.Barrios1Click(Sender: TObject);
 begin
    bairro := TfrmBairro.Create(Self);
    bairro.ShowModal;
+end;
+
+procedure TfrmPrincipal.bitBtnClientesClick(Sender: TObject);
+var
+  clientes : TfrmCliente;
+begin
+  clientes := TfrmCliente.Create(Self);
+  clientes.ShowModal;
 end;
 
 end.

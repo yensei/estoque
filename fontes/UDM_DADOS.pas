@@ -18,6 +18,25 @@ type
     ds_bairro: TDataSource;
     IBT_BairroBAIRRO_CODIGO: TIntegerField;
     IBT_BairroBAIRRO_NOME: TIBStringField;
+    IBT_Cliente: TIBTable;
+    ds_cliente: TDataSource;
+    intgrfldIBT_ClienteCLI_CODIGO: TIntegerField;
+    ibstrngfldIBT_ClienteCLI_NOME: TIBStringField;
+    intgrfldIBT_ClienteCLI_LOGRADOURO: TIntegerField;
+    ibstrngfldIBT_ClienteCLI_NUMERO: TIBStringField;
+    intgrfldIBT_ClienteCLI_BAIRRO: TIntegerField;
+    intgrfldIBT_ClienteCLI_CIDADE: TIntegerField;
+    ibstrngfldIBT_ClienteCLI_CEP: TIBStringField;
+    dtmfldIBT_ClienteCLI_DATANASC: TDateTimeField;
+    dtmfldIBT_ClienteCLI_DATACAD: TDateTimeField;
+    ibstrngfldIBT_ClienteCLI_COMPLEMENTO: TIBStringField;
+    ibstrngfldIBT_ClienteCLI_FOTO: TIBStringField;
+    ibstrngfldIBT_ClienteCLI_CPF: TIBStringField;
+    ibstrngfldIBT_ClienteCLI_FONERES: TIBStringField;
+    ibstrngfldIBT_ClienteCLI_FONECOM: TIBStringField;
+    ibstrngfldIBT_ClienteCLI_FONECEL: TIBStringField;
+    ibstrngfldIBT_ClienteCLI_OBS: TIBStringField;
+    ibstrngfldIBT_ClientePES_EMAIL: TIBStringField;
   private
     { Private declarations }
   public

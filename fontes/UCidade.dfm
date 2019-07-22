@@ -1,6 +1,6 @@
 object frmCidade: TfrmCidade
-  Left = 597
-  Top = 313
+  Left = 840
+  Top = 366
   Width = 634
   Height = 519
   Caption = 'Ciudades'
@@ -85,8 +85,8 @@ object frmCidade: TfrmCidade
     TabOrder = 1
   end
   object DBGrid1: TDBGrid
-    Left = 32
-    Top = 200
+    Left = 72
+    Top = 344
     Width = 385
     Height = 241
     DataSource = dm_dados.ds_cidade
